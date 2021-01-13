@@ -1,11 +1,11 @@
 {
-  "name": "fill-zero",
+  "name": "fill-number",
   "version": "1.0.0",
   "description": "Fill the front of a number with the chosen padding.",
   "main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GNtousakis/left-trim"
+    "url": "https://github.com/GNtousakis/fill-number"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

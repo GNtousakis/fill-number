@@ -1,4 +1,4 @@
-# fill-zero 
+# fill-number 
 
 Fill the front of a number with the chosen padding. Default is zero. Build with __nan__.
 
@@ -7,7 +7,7 @@ Fill the front of a number with the chosen padding. Default is zero. Build with 
 ```sh
 
 # With npm 
-npm i fill-zero
+npm i fill-number
 
 ```
 
@@ -15,14 +15,14 @@ npm i fill-zero
 
 ```js 
 
-const fillZero  = require('fill-zero');
+const fillNumber  = require('fill-number');
 
-fillZero(3, 1) // ~> '001'
-fillZero(5, 2) // ~> '00002'
+fillNumber(3, 1) // ~> '001'
+fillNumber(5, 2) // ~> '00002'
 
-fillZero(4, 1, '#') ~> '###1'
-fillZero(4, 20, '#') ~> '##20'
-fillZero(4, 20, ' ') ~> '  20'
+fillNumber(4, 1, '#') ~> '###1'
+fillNumber(4, 20, '#') ~> '##20'
+fillNumber(4, 20, ' ') ~> '  20'
 
 ```
 

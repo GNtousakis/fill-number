@@ -11,7 +11,7 @@ using v8::String;
 using v8::Value;
 using v8::Handle;
 
-void FillZero(const FunctionCallbackInfo<Value>& args){
+void FillNumber(const FunctionCallbackInfo<Value>& args){
   Isolate* isolate = args.GetIsolate();
   
   /* Check arguments */
@@ -42,7 +42,7 @@ void FillZero(const FunctionCallbackInfo<Value>& args){
 }
 
 void Init(Handle<Object> exports) {
-  NODE_SET_METHOD(exports, "FillZero", FillZero);
+  NODE_SET_METHOD(exports, "FillNumber", FillNumber);
 }
 
-NODE_MODULE(FillZero, Init)
+NODE_MODULE(FillNumber, Init)

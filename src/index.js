@@ -1,3 +1,3 @@
-const fillZero = require('../build/Release/FillZero.node');
+const fillNumber = require('../build/Release/FillNumber.node');
 
-module.exports = fillZero.FillZero;
+module.exports = fillNumber.FillNumber;

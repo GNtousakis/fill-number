@@ -1,8 +1,8 @@
 {
   "targets": [
     {
-      "target_name": "FillZero",
-      "sources": [ "/src/FillZero.cpp" ],
+      "target_name": "FillNumber",
+      "sources": [ "/src/FillNumber.cpp" ],
       "include_dirs": [
         "<!(node -e \"require('nan')\")"
       ]
